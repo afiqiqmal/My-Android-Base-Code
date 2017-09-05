@@ -24,7 +24,7 @@
     </style>
 
     <style name="FontBold.Button" parent="Base.Widget.AppCompat.Button.Borderless">
-        <item name="fontPath">fonts/avenir-next-bold.ttf</item>
+        <item name="fontPath">fonts/circularstd-bold.ttf</item>
         <item name="android:background">?attr/borderlessButtonStyle</item>
     </style>
 
@@ -38,6 +38,28 @@
 
     <style name="FontThin">
         <item name="fontPath">fonts/circularstd-black.ttf</item>
+    </style>
+
+
+    <style name="FontBoldAvenir">
+        <item name="fontPath">fonts/avenir-next-bold.ttf</item>
+    </style>
+
+    <style name="FontBoldAvenir.Button" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="fontPath">fonts/avenir-next-bold.ttf</item>
+        <item name="android:background">?attr/borderlessButtonStyle</item>
+    </style>
+
+    <style name="FontRegularAvenir">
+        <item name="fontPath">fonts/avenir-next-regular.ttf</item>
+    </style>
+
+    <style name="FontMediumAvenir">
+        <item name="fontPath">fonts/avenir-next-medium.ttf</item>
+    </style>
+
+    <style name="FontThinAvenir">
+        <item name="fontPath">fonts/avenir-next-thin.ttf</item>
     </style>
 
 </resources>
