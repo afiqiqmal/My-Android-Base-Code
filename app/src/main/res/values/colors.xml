@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="light_black">#4d6a79</color>
+    <color name="light_grey">#f5f5f5</color>
+    <color name="white_grey">#a7afc7</color>
+    <color name="black">#354852</color>
+    <color name="blackie">#2c3144</color>
+    <color name="light_blackie">#454d64</color>
+    <color name="offwhite">#f7f9fb</color>
+    <color name="neon_green">#00e386</color>
+    <color name="bg_color_grey">#F7F7FB</color>
+    <color name="blue">#0091ff</color>
+    <color name="blue_transparent">#E60091ff</color>
+    <color name="blue_transparent2">#780091ff</color>
+
+    <color name="scBlackTransparent">#A6000000</color>
+    <color name="scGreyTransparent">#99414141</color>
+    <color name="scGreyTransparent3">#32414141</color>
+    <color name="scGreyTransparent2">#32efefef</color>
+
+
+
+    <color name="alphabet_background_border_color">@android:color/transparent</color>
+    <color name="alphabet_text_color">@color/md_blue_500</color>
+    <color name="alphabet_text_selected_color">@color/md_orange_500</color>
+    <color name="alphabet_background_color">@android:color/transparent</color>
+
+</resources>

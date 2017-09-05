@@ -1,0 +1,27 @@
+apply plugin: 'java'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'net.ltgt.apt'
+
+configurations {
+    provided
+}
+
+sourceSets {
+    main {
+        compileClasspath += configurations.provided
+    }
+}
+
+dependencies {
+    compile project(':app-core')
+
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // HTTP
+    compile libraries.retrofit
+    compile libraries.retrofitGsonConverter
+    compile libraries.retrofitRxJavaAdapter
+    compile libraries.retrofitLogInterceptor
+    // RxJava
+    compile libraries.rxJava
+}

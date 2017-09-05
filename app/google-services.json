@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "53814156164",
+    "firebase_url": "https://android-base-e09db.firebaseio.com",
+    "project_id": "android-base-e09db",
+    "storage_bucket": "android-base-e09db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53814156164:android:771f5d87e60bce82",
+        "android_client_info": {
+          "package_name": "com.hackhaton.androidbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53814156164-rv510qdqnq0vhh7ds11c7clugchundu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5lDefKpSGhgkD3GwuDBDemkQT27DGKMQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53814156164:android:4beafb12e547dd6a",
+        "android_client_info": {
+          "package_name": "com.hackhaton.androidbase.mock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53814156164-rv510qdqnq0vhh7ds11c7clugchundu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5lDefKpSGhgkD3GwuDBDemkQT27DGKMQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

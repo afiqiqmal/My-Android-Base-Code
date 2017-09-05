@@ -1,0 +1,75 @@
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':app-client');
+    androidTestCompile 'junit:junit:4.12'
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    // Android Support
+    compile libraries.design
+    compile libraries.cardView
+    compile libraries.appCompat
+    compile libraries.supportV4
+
+    //Butterknife
+    compile libraries.butterknife
+    annotationProcessor libraries.butterknifeCompiler
+
+    // Google Play
+    compile libraries.googleMap
+    compile libraries.googleLocation
+
+    // Json
+    compile libraries.googleGson
+
+    //Crashlytics
+    compile (libraries.fabric){
+        transitive = true;
+    }
+    compile (libraries.fabricAnswer){
+        transitive = true;
+    }
+
+    // Firebase
+    compile libraries.firebaseAnalytic
+    compile libraries.firebasegcm
+    compile libraries.firebaseCrash
+
+    // Dagger
+    compile libraries.dagger
+    annotationProcessor libraries.daggerCompiler
+    provided libraries.javaAnnotations
+
+    // RxAndroid
+    compile libraries.rxAndroid
+
+    //Image Rendering
+    compile libraries.glide
+
+    //Rx Permission
+    compile libraries.rxpermission
+
+    //Font
+    compile (libraries.caligraphy){
+        exclude group: 'com.android.support', module: 'appcompat-v7'
+        transitive = false
+    }
+
+    //sharedpref
+    compile 'com.github.afiqiqmal:ConcealSharedPreference-Android:1.2.1'
+
+    // Animate Anywhere
+    compile ('com.andkulikov:transitionseverywhere:1.7.2'){
+        exclude group: 'com.android.support', module: 'support-v4'
+    }
+
+    //Bottombar
+    compile ('com.aurelhubert:ahbottomnavigation:2.0.6'){
+        transitive = false
+    }
+
+    //Logger
+    compile 'com.orhanobut:logger:2.1.1'
+
+}

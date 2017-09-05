@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/md_white_1000</item>
+        <item name="colorAccent">@color/md_white_1000</item>
+        <item name="colorControlNormal">@color/md_white_1000</item>
+    </style>
+
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <style name="TabLayoutStyle" parent="Base.Widget.Design.TabLayout">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="FontBold">
+        <item name="fontPath">fonts/circularstd-bold.ttf</item>
+    </style>
+
+    <style name="FontBold.Button" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="fontPath">fonts/avenir-next-bold.ttf</item>
+        <item name="android:background">?attr/borderlessButtonStyle</item>
+    </style>
+
+    <style name="FontRegular">
+        <item name="fontPath">fonts/circularstd-book.ttf</item>
+    </style>
+
+    <style name="FontMedium">
+        <item name="fontPath">fonts/circularstd-medium.ttf</item>
+    </style>
+
+    <style name="FontThin">
+        <item name="fontPath">fonts/circularstd-black.ttf</item>
+    </style>
+
+</resources>
